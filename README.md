@@ -25,7 +25,7 @@ This project is a comprehensive flight deal management system designed to automa
    git clone https://github.com/pc3457/Flight-Deals-Tracker.git
    cd Flight-Deals-Tracker
 
-Modules
+## Modules
 
 1. **data_manager.py**
 This module handles data management by interacting with external services like Google Sheets through the Sheety API. It is responsible for storing and retrieving user data and flight prices.
@@ -39,7 +39,7 @@ This module connects to the Amadeus API to search for flights. It retrieves and 
 4. **Notification Manager**
 This module sends out email notifications to inform the users, that a cheaper ticket is available than  the desired threshold price stored in the google sheets.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bugs.
 
